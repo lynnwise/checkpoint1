@@ -1,5 +1,5 @@
 header {
-  padding: 25px;
+  padding: none;
   color: whitesmoke;
   width: 100vw;
 }
@@ -8,24 +8,40 @@ body {
   color: black;
   font-size: 14pt;
 }
-main {
+.main {
+  box-sizing: border-box;
+  background-color: purple;
+  border: solid red 2px;
+  width: 100vw;
+  height: 530px;
+}
+div.article {
   background-color: green;
   box-sizing: border-box;
   float: left;
   width: 70%;
   height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 2%;
+  padding: 10px;
 }
 aside {
-
+  box-sizing: border-box;
+  float: right;
+  width: 28%;
+  background-color: blue;
+  padding: 10px; 
 }
+
 div.logo {
   Width: 100%;
   Background-color: Pink;
   margin-left:0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  width: 95vw;
-  padding: 10px; 
+  margin-top: 0px;
+  padding: 10px;
 }
 a {
   color: whitesmoke;
@@ -41,9 +57,9 @@ nav {
   font-size: 18pt;
   margin-top: 0px;
   Margin-bottom: 0px;
-  width: 95vw;
+  width: 100%;
   height: 5%;
-  text-align: right;
+  text-align: left;
   padding: 10px; 
 }
 nav, a {
@@ -53,7 +69,7 @@ nav, a {
     h1 {
         color: rgb(189, 182, 182);
         font-family: "Times New Roman", Courier, serif;
-        font-size: 30px;
+        font-size: 25pt;
         margin-bottom: 0px;
         margin-top: 0px;
         word-spacing: 30px;
