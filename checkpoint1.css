@@ -10,33 +10,39 @@ body {
 }
 .main {
   box-sizing: border-box;
-  background-color: purple;
-  border: solid red 2px;
+  background-color: white;
   width: 100vw;
   height: 530px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 div.article {
-  background-color: green;
+  background-color: white;
   box-sizing: border-box;
   float: left;
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 530px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 2%;
+  margin-right: 0px;
+  margin-left: 20px;
   padding: 10px;
 }
-aside {
+div.aside {
   box-sizing: border-box;
   float: right;
-  width: 28%;
-  background-color: blue;
+  width: 30%;
+  height: 530px;
+  background-color: rgba(108, 136, 172, 0.25);
   padding: 10px; 
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 0px;
 }
 
 div.logo {
   Width: 100%;
-  Background-color: Pink;
+  Background-color: white;
   margin-left:0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -48,13 +54,13 @@ a {
   text-decoration: none;
 }
 a:hover { 
-    color: rgba(18, 5, 73, 0.25);
+    color: rgba(110, 126, 165, 0.988);
   }
 
 nav {
-  Background-color: grey;
-  color: whitesmoke;
-  font-size: 18pt;
+  Background-color: rgb(46, 44, 44);
+  color:rgba(110, 126, 165, 0.988);
+  font-size: 15pt;
   margin-top: 0px;
   Margin-bottom: 0px;
   width: 100%;
@@ -88,6 +94,7 @@ hr.whitefade {
 }
 
   h2{
+    Color: rgba(182, 120, 62, 0.988);
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -107,8 +114,11 @@ hr.whitefade {
 footer {
   position: absolute;
   text-align: center;
-  background-color: yellow;
+  background-color: white;
   bottom: 0;
   width: 100%;
-  height: 10%;
+  height: 8%;
+}
+footer hr {
+  color: black;
 }
